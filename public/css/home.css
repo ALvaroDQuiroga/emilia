@@ -1,3 +1,23 @@
 .home h1{
-    background-color: navy;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+    color: rgb(29, 176, 212);
+}
+.home h2{
+    
+        display: block;
+        font-size: 2em;
+        margin-block-start: 0.67em;
+        margin-block-end: 0.67em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        font-weight: bold;
+        color: rgba(245, 12, 12, 0.397);
+    
 }
