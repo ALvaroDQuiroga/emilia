@@ -1,0 +1,21 @@
+.about{
+    background-image: url();
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.about header{
+
+}
+.about nav{
+text-align: right;
+}
+.about nav ul{
+background-color: rgb(255, 255,255, 0.5);
+padding-top: 10px ;
+padding-bottom: 10px;
+}
+.about nav ul li{
+display: inline;
+}

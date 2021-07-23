@@ -12,12 +12,12 @@
 .home h2{
     
         display: block;
-        font-size: 2em;
+        font-size: 1em;
         margin-block-start: 0.67em;
         margin-block-end: 0.67em;
         margin-inline-start: 0px;
         margin-inline-end: 0px;
-        font-weight: bold;
+        font-weight: normal;
         color: rgba(245, 12, 12, 0.397);
     
 }

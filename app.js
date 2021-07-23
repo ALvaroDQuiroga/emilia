@@ -13,4 +13,8 @@ app.get('/',(req, res) => res.sendFile(path.join(__dirname, 'view', 'home.html')
 
 app.get('/about',(req, res) => res.sendFile(path.join(__dirname, 'view', 'about.html')) )
 
-app.listen(port,()=>console.log('Servidor corriendo en el puerto ' + port + ' http://localhost:' + port))
+app.get('/contact',(req, res) => res.sendFile(path.join(__dirname, 'view', 'contact.html')) )
+
+app.get('/music',(req, res) => res.sendFile(path.join(__dirname, 'view', 'music.html')) )
+
+app.listen(port,()=>console.log('Servidor corriendo en el puerto ' + ' http://localhost:' + port))
